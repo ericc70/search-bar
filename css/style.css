@@ -1,0 +1,37 @@
+body{
+min-height:100vh;
+    background-image: url('../media/background.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.container-fluid{
+    min-height:100vh;
+}
+#reponse{
+    background-color: rgba(87, 87, 87, 0.9);
+    min-height: 0px;
+    color: white;
+
+}
+
+#reponse p:first-child{
+ padding-top: 15px;
+
+}
+
+#reponse p:last-child{
+    padding-bottom: 15px;
+
+}
+
+header, footer{
+  color:white;
+}/*    
+.milieu{
+    min-height: 80vh;
+} */
+
+footer img{
+    height:30px;
+    width: auto;
+}
